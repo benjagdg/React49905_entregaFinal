@@ -3,14 +3,12 @@
 Curso React - Comisión 49905
 - Benjamín García del Gaiso
 
+> [!Dependencias]
+> React-Router-Dom
+> Firebase
+> TailWindUI
+
 # React + Vite + Firebase + TailWindUI
-### Dependencias:
-
-"@headlessui/react"
-"@heroicons/react"
-"firebase"
-"react-router-dom"
-
 
 ## ¿Cómo usar?
 
