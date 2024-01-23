@@ -1,39 +1,39 @@
 # Entrega Proyecto Final - ReactJs CoderHouse
-
-Curso React - Comisión 49905
-- Benjamín García del Gaiso
-
-> [!Dependencias]
-> React-Router-Dom
-> Firebase
-> TailWindUI
-
 # React + Vite + Firebase + TailWindUI
 
-## ¿Cómo usar?
+Curso React Js - Comisión 49905
+- Benjamín García del Gaiso
 
-### Descarga el repositorio
+## Dependencias
+- React-Router-Dom
+- Firebase
+- TailWindUI
 
-En una terminal ejecuta:
+
+## ¿Cómo usar el proyecto localmente?
+
+Clonar el proyecto
 
 ```bash
-git clone
-https://github.com/benjagdg/React49905_entregaFinal
+  git clone https://github.com/benjagdg/React49905_entregaFinal
 ```
 
-### Instalar las dependencias
-
-Ingresa desde la terminal a la carpeta del proyecto y luego instala las dependencias
+Ir a la carpeta del proyecto
 
 ```bash
-git clone
-cd React49905_entregaFinal
-npm install
+  cd React49905_entregaFinal
 ```
 
-### Ejecuta el Proyecto
+Instalar las dependencias
+
 ```bash
-npm run dev
+  npm install
+```
+
+Iniciar el servidor en modo dev
+
+```bash
+  npm run dev
 ```
 
 ## Listo! 
