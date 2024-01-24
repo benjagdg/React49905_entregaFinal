@@ -1,5 +1,5 @@
 import MainRouter from "./router/MainRouter";
-import {CartProvider} from "./context/CartContext";
+import { CartProvider } from "./context/CartContext";
 
 function App() {
   return (

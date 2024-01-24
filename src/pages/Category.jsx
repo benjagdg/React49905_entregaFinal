@@ -1,9 +1,17 @@
-import React from 'react'
+import { useParams } from 'react-router-dom';
+import { useGetCategoryFilter } from '../hooks/useFirebase';
+import ItemListContainer from '../components/ItemListContainer';
+import { setSiteTitle } from '../hooks/setSiteTitle';
 
 const Category = () => {
-  setSiteTitle('Categorias - Wabit Store');
+  const { category } = useParams();
+  const { collectionFilter } = useGetCategoryFilter('products', category);
+  setSiteTitle(`${category} - Wabit Store`);
+  
   return (
-    <div>Category</div>
+    <div>
+      <ItemListContainer productsData={collectionFilter} title={`Categoría ${category}`}></ItemListContainer>
+    </div>
   )
 }
 export default Category
