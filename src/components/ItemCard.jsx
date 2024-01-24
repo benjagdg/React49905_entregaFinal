@@ -6,11 +6,11 @@ const ItemCard = ( {itemData} ) => {
   return (
     itemData.map((product) => (
       <div key={product.id} className="group relative border rounded">
-        <div className="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-md bg-gray-200 lg:aspect-none group-hover:opacity-75 lg:h-80">
+        <div className="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-md bg-gray-200 lg:aspect-none group-hover:opacity-75">
           <img
             src={product.thumbnail}
             alt={product.title}
-            className="h-full w-full object-cover object-center lg:h-full lg:w-full"
+            className=" w-full object-cover object-center lg:w-full"
           />
         </div>
         <div className="mt-4 p-4 text-center">

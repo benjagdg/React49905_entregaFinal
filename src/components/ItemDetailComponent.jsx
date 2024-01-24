@@ -51,24 +51,24 @@ const ItemDetailComponent = ({ proData }) => {
       <div className="mx-auto mt-6 max-w-2xl sm:px-6 lg:grid lg:max-w-7xl lg:grid-cols-3 lg:gap-x-8 lg:px-8">
         <div className="aspect-h-4 aspect-w-3 overflow-hidden rounded-lg lg:block">
           <img
-            src={proData.thumbnail}
-            alt={proData.thumbnail}
-            className="h-full w-full object-cover object-center"
+            src={proData.images[0]}
+            alt={proData.title}
+            className="p-3 object-cover object-center"
           />
         </div>
         <div className="hidden lg:grid lg:grid-cols-1 lg:gap-y-8">
           <div className="aspect-h-2 aspect-w-3 overflow-hidden rounded-lg">
             <img
-              src={proData.thumbnail}
-              alt={proData.thumbnail}
-              className="h-full w-full object-cover object-center"
+              src={proData.images[1]}
+              alt={proData.title}
+              className="p-3 object-cover object-center"
             />
           </div>
           <div className="aspect-h-2 aspect-w-3 overflow-hidden rounded-lg">
             <img
-              src={proData.thumbnail}
-              alt={proData.thumbnail}
-              className="h-full w-full object-cover object-center"
+              src={proData.images[2]}
+              alt={proData.title}
+              className="p-3 object-cover object-center"
             />
           </div>
         </div>
