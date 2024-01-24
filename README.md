@@ -8,6 +8,7 @@ Curso React Js - Comisión 49905
 - React-Router-Dom
 - Firebase
 - TailWindUI
+- Sonner
 
 
 ## ¿Cómo usar el proyecto localmente?
